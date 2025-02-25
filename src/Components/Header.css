@@ -41,26 +41,8 @@ nav ul li a.active {
   background-color: black;
   border-radius: 5px;
 }
-/* ----------------- */ 
-nav ul {
-  list-style: none;
+
+.nav-links {
   display: flex;
-  gap: 20px;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  text-decoration: none;
-  padding: 10px;
-  color: black;
-  transition: 0.3s;
-}
-
-nav ul li a.active {
-  color: white;
-  background-color: black;
-  border-radius: 5px;
+  gap: 30px;  /* Adds space between links */
 }

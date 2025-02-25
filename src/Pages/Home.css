@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: #1a1a2e;
+  background-color: #16213e;
   color: white;
 }
 
@@ -11,11 +11,14 @@ body {
   text-align: center;
   background: #16213e;
   padding: 20px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #e4a11b;
   border-bottom: 3px solid #e4a11b;
+  animation: fadeSlideIn 1s ease-in-out forwards;
 }
+
+
 
 /* Chess Section */
 .chess-section {

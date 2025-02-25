@@ -1,26 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./Header.css"; // Add styles for active link
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
-              About
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav className="header">
+      <h1 style={{ fontSize: "45px" }}>Chess Arena</h1>
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/booking">Booking</Link>
+      </div>
+    </nav>
   );
 };
 
 export default Header;
+
